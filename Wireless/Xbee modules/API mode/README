@@ -1,0 +1,5 @@
+This the API (application program interface) application for the Xbee modules. 
+In this mode the Xbee modules can create a complex network. The communication is made using packages, with a header, an addres and more information aout the transievers.
+
+The module xbee from the manofacturer is used here to archieve the communication.
+The modules where previusly configured to operate in API mode and have the same constraints using the windows application X-CTU.
