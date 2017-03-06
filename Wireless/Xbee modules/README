@@ -1,0 +1,8 @@
+I did both implementatios in order to explore which is the most appropiate method to be used.
+The API mode allows a more complex network and a more secure communication,
+while the transparent mode can give a more direct and straight forward way to send and receive data.
+
+The mode we pick will depend on how complex it will be to implement the API mode. 
+Given that the package to send just one byte of data can be as big as 16 bytes on size. 
+So far, we have tested succesfully the transparent mode using bothe the microcontroller and the Rpi.
+I'll keep posting any change on software that I make.
