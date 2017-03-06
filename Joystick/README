@@ -1,0 +1,11 @@
+This is the implementation to use a Wii nunchuck to control the rover.
+
+
+The nunchuck uses I2C to communicate with the Rpi.
+
+
+
+This is an example on how to use all the functions of the nunchuck. 
+Every time both buttons on it are pressed, the position of the joystick, the accelerometer and the buttons are printed to the console.
+
+Note how the LCD and the nunchuck both use I2C. They, both, are a typical application of the I2C protocol, where the Rpi is the master for both devices as the slaves.
