@@ -1,0 +1,9 @@
+This is the application of the transparent mode for the Xbee module. The transparent mode allows to send raw data directly to the other module.
+
+This method is less secure than the API mode but the use is more straight forward. 
+This programs contains the inicializations as well as the main loop to 'listen' for any input and send an output constantly.
+
+Both functions are straight forward and easy to use. Only two functions are necessary:
+
+  serialPort.write([string to be sent]) # to send a string of characters to the xbee module.
+  [received data] = serialPort.read()   # to listen for any incoming data.
