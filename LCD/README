@@ -1,0 +1,19 @@
+
+These are the libraries and an example code for the interface with a LCD using a LCD2004 Sains-smart module.
+The communication is relized using I2C protocol. 
+
+After the implementation of the libraries made based on this tutorial:
+https://arduinogeek.wordpress.com/2014/04/23/raspberry-pi-with-i2c-2004-lcd/
+
+The only requirements to start using the LCD are these functions:
+
+lcd = lcddriver.lcd()			#Declare a lcddriver object
+lcd.lcd_clear()				#Clear the LCD display
+
+In order to display anything on the lcd the function lcd_display_string can be used.
+Its usage is [lcddriver object].lcd_display_string([String to be displayed],[line where it will be displayed])
+
+For example:
+
+lcd.lcd_display_string("    Hello, World !",4)
+This will display "Hello, World !" in the line 4
