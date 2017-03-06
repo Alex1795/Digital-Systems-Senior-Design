@@ -11,7 +11,8 @@ Alejandro Tejada      - Systems engineer
 Rdolfo Leiva          - Hardware engineer
 
 The webpage for the project is: https://engineering.purdue.edu/477grp5/
-An my weekly report can be seen on: https://engineering.purdue.edu/477grp5/Team/progress/progress1.html
+
+And my weekly report can be seen on: https://engineering.purdue.edu/477grp5/Team/progress/progress1.html
 
 
 The description of the project as seen on the webpage:
