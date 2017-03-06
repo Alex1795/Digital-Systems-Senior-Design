@@ -1,3 +1,6 @@
+These are the implementations for the Xbee modules to archieve wireless communication between the controller and the rover.
+The first implementation is the API mode and the second oen the transparent mode.
+
 I did both implementatios in order to explore which is the most appropiate method to be used.
 The API mode allows a more complex network and a more secure communication,
 while the transparent mode can give a more direct and straight forward way to send and receive data.
