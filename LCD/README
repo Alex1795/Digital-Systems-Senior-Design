@@ -17,3 +17,6 @@ For example:
 
 lcd.lcd_display_string("    Hello, World !",4)
 This will display "Hello, World !" in the line 4
+
+
+Note how the LCD and the nunchuck both use I2C. They, both, are a typical application of the I2C protocol, where the Rpi is the master for both devices as the slaves.
